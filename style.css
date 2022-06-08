@@ -1,0 +1,372 @@
+                                                                            html,
+                                                                            body h1,
+                                                                            h2,
+                                                                            p {
+                                                                                color: #ffffff;
+                                                                            }
+                                                                            
+                                                                            #aboutme_bg {
+                                                                                background: #222222;
+                                                                                height: 300px;
+                                                                                background-position: center center;
+                                                                                background-size: cover;
+                                                                                padding: 100px 0 80px;
+                                                                                overflow: hidden;
+                                                                                position: relative;
+                                                                            }
+                                                                            
+                                                                            .aboutme_contents h1 {
+                                                                                color: #ffffff;
+                                                                                font-size: 42px;
+                                                                                font-weight: 700;
+                                                                                line-height: 60px;
+                                                                                margin-bottom: 10px;
+                                                                            }
+                                                                            
+                                                                            .aboutme_contents p {
+                                                                                margin-right: 10px;
+                                                                                font-size: 15px;
+                                                                            }
+                                                                            
+                                                                            span {
+                                                                                color: #b63a3a
+                                                                            }
+                                                                            
+                                                                            #btn {
+                                                                                font-size: 14px;
+                                                                                padding: 10px 30px;
+                                                                                cursor: pointer;
+                                                                                font-weight: 400;
+                                                                                color: rgb(59, 59, 51);
+                                                                                border-radius: 30px;
+                                                                                transition: all 0.2s linear;
+                                                                                -webkit-transition: all 0.2s linear;
+                                                                                -moz-transition: all 0.2s linear;
+                                                                                -o-transition: all 0.2s linear;
+                                                                                display: inline-block;
+                                                                                margin-right: 10px;
+                                                                            }
+                                                                            
+                                                                            .btn-border {
+                                                                                color: #b63a3a;
+                                                                                font-size: 17px;
+                                                                                border-radius: 30px;
+                                                                                background: #ffffff;
+                                                                                text-transform: uppercase;
+                                                                            }
+                                                                            
+                                                                            .btn-border:hover {
+                                                                                color: fff;
+                                                                                border-color: #f63854;
+                                                                                background-color: #f63854;
+                                                                            }
+                                                                            
+                                                                            .aboutme_button {
+                                                                                margin-top: 20px;
+                                                                                color: #222222;
+                                                                            }
+                                                                            
+                                                                            .aboutme_image {
+                                                                                width: 600px;
+                                                                                height: 600px;
+                                                                                margin-top: -240px;
+                                                                                margin-left: 1000px;
+                                                                            }
+                                                                            
+                                                                            .navbar {
+                                                                                background-color: #222222;
+                                                                            }
+                                                                            
+                                                                            .navimg {
+                                                                                margin-top: -80px;
+                                                                                position: relative;
+                                                                                padding: 0px;
+                                                                            }
+                                                                            
+                                                                            .navbar_list {
+                                                                                margin-top: -100px;
+                                                                                margin-left: 260px;
+                                                                            }
+                                                                            
+                                                                            .navlink {
+                                                                                margin-left: 60px;
+                                                                                color: rgb(255, 255, 255);
+                                                                                font-size: 20px;
+                                                                                font-weight: 400;
+                                                                                padding: 7px 0;
+                                                                                cursor: pointer;
+                                                                                position: relative;
+                                                                                background: transparent;
+                                                                                transition: all 03s ease-in-out;
+                                                                                -webkit-transition: all 03s ease-in-out;
+                                                                                -moz-transition: all 03s ease-in-out;
+                                                                                padding-left: 25px;
+                                                                            }
+                                                                            
+                                                                            .navbar_collapse {
+                                                                                background: rgb(0, 0, 0);
+                                                                                z-index: 999999;
+                                                                                padding: 5px !important;
+                                                                                top: 0px !important;
+                                                                                background: #fff;
+                                                                                animation-duration: 1s;
+                                                                                -webkit-animation-duration: 1s;
+                                                                            }
+                                                                            
+                                                                            .navlink {
+                                                                                color: #cacaca;
+                                                                            }
+                                                                            
+                                                                            .navbar_list :hover {
+                                                                                cursor: pointer;
+                                                                                color: #f63854;
+                                                                                border-color: #f63854 !important;
+                                                                            }
+                                                                            
+                                                                            .navbar a {
+                                                                                font-size: 17px;
+                                                                            }
+                                                                            
+                                                                            #skills {
+                                                                                background: url(undraw_firmware_re_fgdy.svg);
+                                                                                background-color: #0f0f0f;
+                                                                                height: 650px;
+                                                                                background-position: center center;
+                                                                                background-size: cover;
+                                                                                padding: 100px 0 80px;
+                                                                                overflow: hidden;
+                                                                                position: relative;
+                                                                            }
+                                                                            
+                                                                            .skills_header {
+                                                                                margin-top: -100px;
+                                                                            }
+                                                                            
+                                                                            #skills h2 {
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            #skills i {
+                                                                                display: 60px;
+                                                                                width: 60px;
+                                                                                height: 60px;
+                                                                                border-radius: 4px;
+                                                                                text-align: center;
+                                                                                position: relative;
+                                                                                z-index: 1;
+                                                                            }
+                                                                            
+                                                                            .skills_boxitem {
+                                                                                padding: 15px;
+                                                                                line-height: 22px;
+                                                                                border-radius: 3px;
+                                                                                transition: all 0.3s ease-in-out;
+                                                                                -webkit-transition: all 0.3s ease-in-out;
+                                                                                -moz-transition: all 0.3s ease-in-out;
+                                                                                position: relative;
+                                                                                right: -250px;
+                                                                            }
+                                                                            
+                                                                            .skills_boxitem:hover {
+                                                                                box-shadow: 27px 15px 27px 15px rgba(224, 224, 224, 0.979);
+                                                                            }
+                                                                            
+                                                                            .portfolio_container {
+                                                                                background: rgb(34, 34, 34);
+                                                                                height: 600px;
+                                                                                background-position: center center;
+                                                                                background-size: cover;
+                                                                                padding: 100px 0 80px;
+                                                                                overflow: hidden;
+                                                                                position: relative;
+                                                                            }
+                                                                            
+                                                                            #portfolio h2 {
+                                                                                text-align: center;
+                                                                                font-size: 35px;
+                                                                            }
+                                                                            
+                                                                            .portfolio img {
+                                                                                margin-left: 400px;
+                                                                            }
+                                                                            
+                                                                            #Contacts {
+                                                                                background: #000000;
+                                                                                height: 100px;
+                                                                            }
+                                                                            
+                                                                            .footer_widget {
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            .social_icon {
+                                                                                color: #272727;
+                                                                                background: #ffffff;
+                                                                                border: 3px solid #f63854;
+                                                                                line-height: 30px;
+                                                                                display: inline-block;
+                                                                                border-radius: 2px;
+                                                                                font-size: 16px;
+                                                                                transition: all 0.3s ease-in-out;
+                                                                                -webkit-transition: all 0.3s ease-in-out;
+                                                                                -o-transition: all 0.3s ease-in-out;
+                                                                                -moz-transition: all 0.3s ease-in-out;
+                                                                            }
+                                                                            
+                                                                            .social_icon i:hover {
+                                                                                color: rgb(241, 2, 2) !important;
+                                                                            }
+                                                                            
+                                                                            .copyright_container {
+                                                                                background: #000000;
+                                                                                text-align: center;
+                                                                            }
+                                                                            
+                                                                            .back_top {
+                                                                                display: flex;
+                                                                                position: fixed;
+                                                                                bottom: 18px;
+                                                                                right: 15px;
+                                                                                text-decoration: none;
+                                                                            }
+                                                                            
+                                                                            .back_top i {
+                                                                                display: blocks;
+                                                                                font-size: 22px;
+                                                                                width: 40px;
+                                                                                height: 40px;
+                                                                                line-height: 40px;
+                                                                                color: #fff;
+                                                                                background: #f63854;
+                                                                                text-align: center;
+                                                                                transition: all 0.3s ease-in-out;
+                                                                                -webkit-transition: all 0.3s ease-in-out;
+                                                                                -o-transition: all 0.3s ease-in-out;
+                                                                                -moz-transition: all 0.3s ease-in-out;
+                                                                                box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 0 4px rgba(0, 0, 0, 0.20);
+                                                                            }
+                                                                            /*Media Queries*/
+                                                                            
+                                                                            @media (max-width:320px) {
+                                                                                html {
+                                                                                    width: 400px;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media (max-width:1240px) {
+                                                                                .aboutme_contents {
+                                                                                    margin-top: -140px;
+                                                                                }
+                                                                                .aboutme_contents h2 {
+                                                                                    margin-top: -10px;
+                                                                                }
+                                                                                .aboutme_contents p {
+                                                                                    margin-top: -20px;
+                                                                                    font-size: 20px;
+                                                                                }
+                                                                                .aboutme_image {
+                                                                                    margin-left: 520px;
+                                                                                    margin-top: -50px;
+                                                                                }
+                                                                                .portfolio_container img {
+                                                                                    margin-left: 225px;
+                                                                                }
+                                                                            }
+                                                                            
+                                                                            @media (max-width: 768px) {
+                                                                                .navbar {
+                                                                                    width: 800px;
+                                                                                    display: flex;
+                                                                                    align-items: center;
+                                                                                }
+                                                                                .navbar_list {
+                                                                                    display: flexbox;
+                                                                                    justify-content: space-between;
+                                                                                    align-items: center;
+                                                                                    margin-top: -140px;
+                                                                                }
+                                                                                .navlink {
+                                                                                    transition: 0.7s ease;
+                                                                                    left: -100px;
+                                                                                }
+                                                                                .aboutme_bg {
+                                                                                    width: 800px;
+                                                                                }
+                                                                                .aboutme_container h1 {
+                                                                                    margin-top: -110px;
+                                                                                    font-size: 18px;
+                                                                                }
+                                                                                .aboutme_container h2 {
+                                                                                    font-size: 16px;
+                                                                                    margin-top: -25px;
+                                                                                }
+                                                                                .aboutme_contents p {
+                                                                                    font-size: 15px;
+                                                                                    margin-right: 5px;
+                                                                                    margin-top: -5px;
+                                                                                }
+                                                                                .aboutme_image {
+                                                                                    width: 5px;
+                                                                                    height: 5px;
+                                                                                    margin-top: 5px;
+                                                                                    margin-left: 15px;
+                                                                                }
+                                                                                #btn {
+                                                                                    padding: 3px 20px 3px;
+                                                                                    font-size: 10px;
+                                                                                }
+                                                                                .btn-border {
+                                                                                    color: #b63a3a;
+                                                                                    border-radius: 30px;
+                                                                                    background: #ffffff;
+                                                                                    text-transform: uppercase;
+                                                                                }
+                                                                                .btn-border:hover {
+                                                                                    color: fff;
+                                                                                    border-color: #f63854;
+                                                                                    background-color: #f63854;
+                                                                                }
+                                                                                .skills {
+                                                                                    width: 800px;
+                                                                                }
+                                                                                .skills_header {
+                                                                                    margin-top: -100px;
+                                                                                }
+                                                                                .skills_boxitem {
+                                                                                    right: -50px;
+                                                                                }
+                                                                                .skills_imgcol {
+                                                                                    display: none;
+                                                                                }
+                                                                                .portfolio {
+                                                                                    width: 800px;
+                                                                                }
+                                                                                .portfolio_container {
+                                                                                    height: 450px;
+                                                                                }
+                                                                                .portfolio_container h2 {
+                                                                                    margin-top: -90px;
+                                                                                }
+                                                                                .portfolio_container img {
+                                                                                    margin-left: 20px;
+                                                                                    width: 300px;
+                                                                                    height: 550px;
+                                                                                }
+                                                                                .footer {
+                                                                                    width: 800px;
+                                                                                }
+                                                                                .footer_widget h3,
+                                                                                p {
+                                                                                    text-align: center;
+                                                                                }
+                                                                                .footer_widget i {
+                                                                                    margin-right: 25px;
+                                                                                }
+                                                                                .back_top {
+                                                                                    display: flex;
+                                                                                    position: fixed;
+                                                                                    bottom: 128px;
+                                                                                    right: 115px;
+                                                                                    text-decoration: none;
+                                                                                }
+                                                                            }
